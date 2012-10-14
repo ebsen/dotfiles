@@ -1,4 +1,4 @@
 dotfiles
 ========
 
-Configuration files for Unix apps
+Configuration files for open-source applications
