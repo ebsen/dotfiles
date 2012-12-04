@@ -1,10 +1,7 @@
 # Simpler bash prompt in Terminal.app
-export PS1="\[\033[1;36m\]\w$ \[\033[0m\]" # 1;36 = bright cyan
-#promptColor="\e[1;34m" # previous: 1;34
-#endColor="\e[m"
-#export PS1='\e[0;36m\w$ \e[0m'
-#export PS1="$promptColor\w $endColor"
-#export PS1="$promptColor"'\w$ '"$endColor"
+promptColor="\[\033[1;36m\]"
+endColor="\[\033[0m\]"
+export PS1="$promptColor\w$ $endColor" 
 
 # Syntax highlighting for commands like `ls` and such
 alias ls="ls -G"
