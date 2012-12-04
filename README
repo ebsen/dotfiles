@@ -1,0 +1,8 @@
+Here lie the various configuration files for all the (Unix-y) things I use from time to time.
+
+To install, clone the repository and create symbolic links to allow the apps to find the `rc` files:
+
+	ln -s ~/.dotfiles/vim/vimrc ~/.vimrc
+	ln -s ~/.dotfiles/bash_profile ~/.bash_profile
+
+and so forth.

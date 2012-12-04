@@ -1,0 +1,8 @@
+"colorscheme solarized
+
+set guifont=Source\ Code\ Pro:h12
+" set linespace=6
+
+set guioptions-=rL " Hide right scrollbar unless vsplit open
+
+set nonumber " Hide line numbers by default in GUI environment

@@ -1,0 +1,19 @@
+call pathogen#infect()
+syntax on
+filetype plugin indent on
+
+if has('gui_running')
+	set background=light
+else
+	set background=dark
+endif
+"set background=dark
+colorscheme solarized
+
+set tabstop=2 shiftwidth=2 "expandtab
+
+set number " Show line numbers in Terminal
+
+set wrap linebreak nolist " Enable Vimcast's soft wrapping
+set showcmd " Display <leader> in the ruler --doesn't appear to be working?
+set mouse=a " Jump to a subject in :help via mouse click
