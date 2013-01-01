@@ -30,4 +30,4 @@ color.active   = black on green
 color.pri.H    = white on black
 color.pri.M    = white 
 color.blocked  = yellow 
-color.blocking = black on yellow 
+color.blocking = magenta
