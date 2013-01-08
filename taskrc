@@ -26,7 +26,7 @@ include /usr/local/Cellar/task/2.1.2/share/doc/task/rc/dark-16.theme
 #include /usr/local/Cellar/task/2.1.2/share/doc/task/rc/dark-gray-256.theme
 
 # Overrides 
-color.active   = black on green
+color.active   = white on green
 color.pri.H    = white on black
 color.pri.M    = white 
 color.blocked  = yellow 
