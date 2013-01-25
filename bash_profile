@@ -7,7 +7,7 @@
 # Purple      0;35     Light Purple  1;35
 # Brown       0;33     Yellow        1;33
 # Light Gray  0;37     White         1;37
-promptColor="\[\033[1;34m\]"
+promptColor="\[\033[0;34m\]"
 endColor="\[\033[0m\]"
 export PS1="$promptColor\w$ $endColor" 
 
