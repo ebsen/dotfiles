@@ -9,12 +9,15 @@
 windowTitle = "$TM_DISPLAYNAME${TM_DIRECTORY/\A(?:\/Users\/work\w+\/?(.*)|(.+))\z/${2:? ${2/\A\/Users\/work/~/}:${1/\A(?=.)/ – /}}/}"
 # original source: http://tm2tips.tumblr.com/post/14228717144/create-a-tm-properties-file-to-set-preferences
 
-# Show parent folder (and - sign) only
+# Show parent (enclosing) folder (and - sign) only
 # windowTitle = "$TM_DISPLAYNAME – ${TM_DIRECTORY/([^\/])[^\/]+\///g}"
 
 #
 # File Settings
 #
 
-[ *.{html} ]
+[ attr.file.unknown-type ]
+fileType = text.plain
+
+[ *.{html, css} ]
 tabSize = 2
