@@ -7,7 +7,7 @@
 # Purple      0;35     Light Purple  1;35
 # Brown       0;33     Yellow        1;33
 # Light Gray  0;37     White         1;37
-promptColor="\[\033[0;34m\]"
+promptColor="\[\033[0;35m\]"
 endColor="\[\033[0m\]"
 export PS1="$promptColor\w$ $endColor" 
 
@@ -20,5 +20,5 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then
 fi
 
 # PATH ammendment to put Homebrew-installed apps in front of system-provided ones
-homebrew=/usr/local/bin:/usr/local/sbin:/usr/local/share/npm/bin
+homebrew=/usr/local/bin:/usr/local/sbin:/usr/local/opt/ruby/bin:/usr/local/share/npm/bin
 export PATH=$homebrew:$PATH
