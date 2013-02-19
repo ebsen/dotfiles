@@ -19,6 +19,11 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then
 	. $(brew --prefix)/etc/bash_completion
 fi
 
+# Homebrew Bash completion (from their Tips n Tricks section)
+source `brew --prefix`/Library/Contributions/brew_bash_completion.sh
+
 # PATH ammendment to put Homebrew-installed apps in front of system-provided ones
-homebrew=/usr/local/bin:/usr/local/sbin:/usr/local/opt/ruby/bin:/usr/local/share/npm/bin
+homebrew="/usr/local/bin:/usr/local/sbin:/usr/local/opt/ruby/bin:/usr/local/share/npm/bin"
 export PATH=$homebrew:$PATH
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+export GEM_HOME='/usr/local'
