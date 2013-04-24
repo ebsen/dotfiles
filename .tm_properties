@@ -1,6 +1,12 @@
 # Global TextMate properties
 # Erik Ebsen
 
+# 
+# Font Settings
+# 
+fontName = 'Source Code Pro'
+fontSize = 12
+
 #
 # Window Settings
 #

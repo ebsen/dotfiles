@@ -1,5 +1,10 @@
 call pathogen#infect()
-syntax on
+set nocompatible
+syntax enable
+colorscheme peachpuff " `zellner` also not bad
+set encoding=utf-8
+set showcmd " Display <leader> in the ruler --doesn't appear to be working?
+            " Display incomplete commands --according to Mislav (http://mislav.uniqpath.com/2011/12/vim-revisited/)
 filetype plugin indent on
 
 " if has('gui_running')
@@ -10,10 +15,16 @@ filetype plugin indent on
 "set background=dark
 "colorscheme solarized
 
-set tabstop=2 shiftwidth=2 "expandtab
+"" Whitespace & wrapping
+set tabstop=2 shiftwidth=2
+"set expandtab 							" Use spaces, not tabs
+set number 									" Show line numbers in Terminal
+set wrap linebreak nolist 	" Enable Vimcast's soft wrapping
 
-set number " Show line numbers in Terminal
+set mouse=a 								" Jump to a subject in :help via mouse click
 
-set wrap linebreak nolist " Enable Vimcast's soft wrapping
-set showcmd " Display <leader> in the ruler --doesn't appear to be working?
-set mouse=a " Jump to a subject in :help via mouse click
+"" Searching
+set hlsearch 		" highlight matches
+set incsearch 	" incremental searching
+set ignorecase 	" searches are case insensitive...
+set smartcase 	" ... unless they contain at least one capital letter
