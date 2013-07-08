@@ -25,5 +25,5 @@ windowTitle = "$TM_DISPLAYNAME${TM_DIRECTORY/\A(?:\/Users\/work\w+\/?(.*)|(.+))\
 [ attr.file.unknown-type ]
 fileType = text.plain
 
-[ *.{html, css} ]
+[ *.{html, css, h, c, m, m} ]
 tabSize = 2
