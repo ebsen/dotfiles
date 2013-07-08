@@ -24,7 +24,7 @@ source `brew --prefix`/Library/Contributions/brew_bash_completion.sh
 
 # PATH ammendment to put Homebrew-installed apps in front of system-provided ones
 # homebrew="/usr/local/bin:/usr/local/sbin:/usr/local/opt/ruby/bin:/usr/local/share/npm/bin"
-homebrew="/usr/local/bin"
+homebrew="/usr/local/bin:/usr/local/share/npm/bin"
 # $HOME/.rbenv/bin:$PATH
 export PATH=$homebrew:$PATH
 # [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
