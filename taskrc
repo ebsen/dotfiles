@@ -15,7 +15,7 @@ data.location=/Users/work/.task
 
 # Color theme (uncomment one to use)
 #include /usr/local/Cellar/task/2.2.0/share/doc/task/rc/dark-16.theme
-#include /usr/local/Cellar/task/2.2.0/share/doc/task/rc/dark-256.theme
+ include /usr/local/Cellar/task/2.2.0/share/doc/task/rc/dark-256.theme
 #include /usr/local/Cellar/task/2.2.0/share/doc/task/rc/dark-blue-256.theme
 #include /usr/local/Cellar/task/2.2.0/share/doc/task/rc/dark-gray-256.theme
 #include /usr/local/Cellar/task/2.2.0/share/doc/task/rc/dark-green-256.theme
@@ -25,7 +25,7 @@ data.location=/Users/work/.task
 #include /usr/local/Cellar/task/2.2.0/share/doc/task/rc/light-16.theme
 #include /usr/local/Cellar/task/2.2.0/share/doc/task/rc/light-256.theme
 #include /usr/local/Cellar/task/2.2.0/share/doc/task/rc/refresh
-include /usr/local/Cellar/task/2.2.0/share/doc/task/rc/solarized-dark-256.theme
+#include /usr/local/Cellar/task/2.2.0/share/doc/task/rc/solarized-dark-256.theme
 #include /usr/local/Cellar/task/2.2.0/share/doc/task/rc/solarized-light-256.theme
 
 # These are all outdated (see path)
@@ -41,6 +41,8 @@ include /usr/local/Cellar/task/2.2.0/share/doc/task/rc/solarized-dark-256.theme
 #include /usr/local/Cellar/task/2.1.2/share/doc/task/rc/dark-gray-256.theme
 
 # Overrides
+color.alternate = on color0
+color.blocking    = color8
 # color.active    = white on green
 # color.pri.H     = white on black
 # color.pri.M     = white
